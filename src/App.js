@@ -17,6 +17,8 @@ function App() {
       }}>Show alert</button>
       <button onClick={showCounterApp}>Show App</button>
 <h3>Hello World</h3>
+<h3>Hello World</h3>
+<h3>Hello World</h3>
       {show ? <CounterApp /> : <h3>Counter app not display!</h3>}
     </div>
   );
