@@ -22,8 +22,9 @@ function App() {
       <h1>Hello world1</h1>
       <h1>123</h1>
       <button onClick={showCounterApp}>Show App</button>
+
       <h3>Hello World</h3>
-      {show ? <CounterApp /> : <h3>Counter app not display!</h3>}
+     {show ? <CounterApp /> : <h3>Counter app not display!</h3>}
     </div>
   );
 }
