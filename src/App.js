@@ -10,7 +10,9 @@ function App() {
 
   console.log(show);
 
-  return <div>Hello world</div>;
+  return <div>
+    <h2>Viet Nam</h2>
+    </div>;
 }
 
 export default App;
