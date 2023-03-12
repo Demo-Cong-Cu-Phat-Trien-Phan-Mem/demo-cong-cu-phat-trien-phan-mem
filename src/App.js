@@ -10,7 +10,11 @@ function App() {
 
   console.log(show);
 
-  return <div>Hello world</div>;
+  return (
+    <div>
+      <h1>Hello</h1>
+    </div>
+  );
 }
 
 export default App;
