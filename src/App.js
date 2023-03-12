@@ -12,9 +12,14 @@ function App() {
 
   return (
     <div>
-      <button onClick={(e) => {
-        alert('Hello World');
-      }}>Show alert</button>
+      <button
+        onClick={(e) => {
+          alert("Hello World");
+        }}
+      >
+        Show alert
+      </button>
+      <h1>Hello world1</h1>
       <button onClick={showCounterApp}>Show App</button>
       {show ? <CounterApp /> : <h3>Counter app not display!</h3>}
     </div>
